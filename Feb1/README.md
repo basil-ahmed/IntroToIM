@@ -3,4 +3,4 @@
 ### Assignment 1: Self Portrait
 
 
-![](Feb1/Self Portrait.png)
+![Self Portrait](Feb1/Self Portrait.png)
