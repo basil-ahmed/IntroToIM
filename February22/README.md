@@ -34,4 +34,4 @@ The trend I got was an upwards trend that clearly shows it got more popular over
 
 #### Result:
 
-! []()
+![](bar_graph.png)
