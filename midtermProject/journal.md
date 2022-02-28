@@ -29,6 +29,7 @@
 <img width="572" alt="Screen Shot 2022-02-28 at 11 21 57 PM" src="https://user-images.githubusercontent.com/90772853/156045534-f23a936e-3b76-432f-9a40-46b09aea38c5.png">
 
 #### Most Complicated Part of The Project:
-Forming of the Platforms and when they reach the top of the screen they disappear.
+Forming of the randomly placed Platforms and when they reach the top of the screen they disappear.
 
 I feel like this is a very difficult thing to make and I tried making it in the file attached.
+I was unable to solve it at the moment but the solution I am thinking of is when the position of the platforms become 0, I just delete them. I will make a function in the class for that. 
