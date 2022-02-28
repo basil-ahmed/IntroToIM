@@ -1,9 +1,9 @@
 # New York University Abu Dhabi
 ## Introduction To Interactive Media
-### MidTerm Project: Yet To Be Determined<3
+### MidTerm Project: Kid's Going Downstairs
 
 #### Description:
-- Kid’s Going Downstairs is an interactive game for one player, where a character, controlled by the user, has to run from the descending layer of spikes above it.
+- **K**id’s **G**oing **D**ownstairs is an interactive game for one player, where a character, controlled by the user, has to run from the descending layer of spikes above it.
 - The layer of huge spikes follows the character, while they try to flee by jumping on a bunch of platforms.
 - It’s not this simple though! Some platforms are harmful to the player. If the player jumps on those platforms, the character’s health decreases by either 1 or 2 out of 10 (depending on the harmful platform)! Hence, they have to avoid landing on those platforms at all costs.
 - The character can be moved in any direction horizontally, while it is falling down.
