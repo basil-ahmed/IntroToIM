@@ -27,3 +27,8 @@
 <img width="485" alt="Screen Shot 2022-02-28 at 11 21 22 PM" src="https://user-images.githubusercontent.com/90772853/156045521-b753ea8f-6b0c-469b-9840-1750e41356fc.png">
 <img width="592" alt="Screen Shot 2022-02-28 at 11 21 42 PM" src="https://user-images.githubusercontent.com/90772853/156045526-baf5725c-7465-43ac-a86f-05f6c736e1da.png">
 <img width="572" alt="Screen Shot 2022-02-28 at 11 21 57 PM" src="https://user-images.githubusercontent.com/90772853/156045534-f23a936e-3b76-432f-9a40-46b09aea38c5.png">
+
+#### Most Complicated Part of The Project:
+Forming of the Platforms and when they reach the top of the screen they disappear.
+
+I feel like this is a very difficult thing to make and I tried making it in the file attached.
