@@ -1,0 +1,9 @@
+How To Play The Game:
+
+•	As soon as game starts, player falls.
+•	Control the player movement by pressing the Right and Left key respectively.
+•	Move the player while it’s falling (in air) as well as on the platforms.
+•	Avoid touching the harmful platforms, but if no safe platforms exist, jump on harmful ones to keep on moving, as you can get your health recovered.
+•	Try to get as much of a high score as possible!
+•	When life goes 0, or player touches\falls on the ground, the game ends. Click mouse to restart the game.
+•	Most importantly, Enjoy your time while playing!!!
