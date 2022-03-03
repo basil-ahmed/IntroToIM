@@ -1,3 +1,7 @@
+let game_started=false
+
+// Pre-load all files 
+// (except platforms as they're random)
 function preload() {
   bgMusic = loadSound('background.mp3');
   spikeRow= loadImage('5.png');
@@ -11,6 +15,7 @@ function preload() {
   img = loadImage('bg.jpeg');
 }
 
+// Characteristics of the game
 class Game {
   
   constructor(w, h, g, ground) 
@@ -76,6 +81,7 @@ class Game {
     
   }
   
+  // Displays Character and Platforms
   display() {
     
     // Displaying the row of spikes at the top
@@ -101,6 +107,7 @@ class Game {
   
 }
 
+// Contains the feautures of the player
 class Player {
   
   constructor(x, y, g, ground, char_w, char_h) 
@@ -156,6 +163,7 @@ class Player {
       
   }
   
+  // Updating character stats according to player input
   update() {
     
     this.gravity();
@@ -249,10 +257,13 @@ class Player {
     }
     
   }
-    
-  reduce_life() {this.life = this.life - 1;}
+  
+  // Reduce Life Function if life is above 0
+  reduce_life() {if (this.life > 0) {this.life = this.life - 1;}}
+  // Increase life function
   plus_life() {this.life = this.life + 1;}
-    
+  
+  // Game over sound and screen display
   gameOver() {
     this.ScreamSound.play();
     game.gameOver = true;
@@ -271,15 +282,16 @@ class Player {
   
 }
 
+// Contains the moving and display features for platforms
 class Platform {
   
   constructor(w,h,x,y,t) 
   {
-    this.w = w;
-    this.h = h;
-    this.x = x;
-    this.y = y;
-    this.type = t;
+    this.w = w; // Platform width
+    this.h = h; // Platform Height
+    this.x = x; // Paltform x-coordinate
+    this.y = y; // Platform y-coordinate
+    this.type = t; // Platform's type
     this.img = loadImage(str(this.type) +'.png');
   }
   
@@ -289,6 +301,7 @@ class Platform {
     this.y = this.y - 4 - (game.level/100);
   }
   
+  // Display Platform according to the type
   display()
   {
     image(this.img,this.x,this.y,this.w,this.h);
@@ -296,12 +309,11 @@ class Platform {
   
 }
 
-let game;
+let game; // Initialisation of the global game variable
 
 function setup() {
   
-  game = new Game(600, 800, 51, 800);
-  createCanvas(game.w, game.h);
+  createCanvas(600, 800);
   
 }
 
@@ -309,21 +321,55 @@ function draw() {
   
   background(img);
   
-  game.form_platform();
-  game.display();
+  // Start Game When Mouse Clicked
+  if (game_started==true)
+  {
+    game.form_platform();
+    game.display();
+
+    // Scoreboard
+    fill(202, 0, 42)
+    rect(5, 45, 150, 85)
+    fill(255,255,255);
+    textSize(40);
+
+    //Increase 1 score for 25 platforms passed
+    text('Score:'+str((int(game.level/25))+1),10,80);
+
+    // Display Player Health
+    text('Life:'+str(game.kid.life),10,120);
+
+    // Display Game Over Message
+    if (game.gameOver == true) {
+      image(game.kid.gameover_img,170,300,250,300);
+    }
+  }
+  // Display The Menu
+  else{
+    
+    fill(200, 0, 255)
+    text("Welcome To Kid's Going Downstairs! ", 100, 50)
+    
+    fill(255,0,0)
+    text('How To Play The Game:', 100, 120)
   
-  fill(255,255,255);
-  textSize(40);
-  
-  //Increase 1 score for 25 platforms passed
-  text('Score:'+str((int(game.level/25))+1),10,80);
-  
-  // Display Player Health
-  text('Life:'+str(game.kid.life),10,120);
-  
-  // Display Game Over Message
-  if (game.gameOver == true) {
-    image(game.kid.gameover_img,170,300,250,300);
+    fill(255,0,150)
+    text('•	As soon as the game starts, the player falls.', 100, 150)
+    text('•	Control the player movement by pressing the Right and Left keys respectively.', 100, 170)
+    text('•	Move the player while it’s falling (in the air) as well as on the platforms.', 100, 190)
+    text('•	Avoid touching the harmful platforms, but if no safe platforms exist, jump on harmful ones ', 100, 210) 
+    text('  to keep on moving, as you can get your health recovered.', 100, 230)
+    text('•	Try to get as much of a high score as possible!', 100, 250)
+    text('•	When life goes 0, or player touches\falls on the ground, the game ends.', 100, 270) 
+    text('•	Click mouse to restart the game.', 100, 290)
+    text('•	Most importantly, Enjoy your time while playing!!!', 100, 310)
+    
+    fill(255, 0, 0)
+    text('PLEASE MAKE SURE THE GAME PREVIEW FITS YOUR SCREEN', 100, 400)
+    text('If it does not, please use a monitor', 100, 420)
+    
+    fill(200, 0, 255)
+    text('CLICK TO PLAY THE GAME', 100, 500)
   }
 }
 
@@ -341,7 +387,11 @@ function keyReleased() {
         game.kid.keyHandler[RIGHT] = false; }
 }
 
-function mouseClicked() { //Restart Game when mouse clicked
+function mouseClicked() { //Start and Restart Game when mouse clicked
+    if (game_started==false){
+      game = new Game(600, 800, 51, 800);
+      game_started=true
+    }
     if (game.gameOver == true) {
         game = new Game(600,800,51,800); }
 }
