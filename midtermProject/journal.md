@@ -41,3 +41,5 @@ https://editor.p5js.org/basilahmed46/sketches/LU-_taQ_m
 
 [Please Play it on a Big Screen for a Better and Full Experience!!!]
 
+Go through the instructions on How To Play the Game at https://github.com/basil-ahmed/IntroductionToInteractiveMedia/blob/main/midtermProject/HowToPlay.txt
+
