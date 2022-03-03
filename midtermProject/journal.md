@@ -33,3 +33,11 @@ Forming of the randomly placed Platforms and when they reach the top of the scre
 
 I feel like this is a very difficult thing to make and I tried making it in the file attached.
 I was unable to solve it at the moment but the solution I am thinking of is when the position of the platforms become 0, I just delete them. I will make a function in the class for that. 
+
+
+#### After the game was completed:
+Attached below is the link to play the game so that you don't have to download all the files:
+https://editor.p5js.org/basilahmed46/sketches/LU-_taQ_m
+
+[Please Play it on a Big Screen for a Better and Full Experience!!!]
+
