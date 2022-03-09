@@ -342,6 +342,7 @@ function draw() {
     // Display Game Over Message
     if (game.gameOver == true) {
       image(game.kid.gameover_img,170,300,250,300);
+      text("Click to Restart!!", 150, 650);
     }
   }
   // Display The Menu
