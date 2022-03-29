@@ -30,6 +30,3 @@ The bulb lights up when you close the marker's cap, and it switches off when the
 
 
 https://user-images.githubusercontent.com/90772853/160660002-3ea7a946-76bd-4556-af10-673d2111ec63.MOV
-
-![IMG_4910](https://user-images.githubusercontent.com/90772853/160660391-a58626e0-48da-4ee7-81d7-c56a60974523.png)
-
