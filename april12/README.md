@@ -83,3 +83,6 @@ This particular assignment is inspired from the concept of polyphony in the subj
 - One interesting thing we found while playing with the Arduino is that the three pairs of pins on the middle (vertically) of one end of Arduino- when any conductor touches one of those pins, the circuit resets itself for some reason. Wonder what the use of those pins exactly are. 
 
 #### Final Outcome:
+
+#### References and Inspiration:
+Arduino to Max/Msp: [YouTube Link](https://www.youtube.com/watch?v=ftDtsSHU2UM)- Inspired that we can change the speeds using knobs, in our case, the potentiometers.
