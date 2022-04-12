@@ -83,6 +83,7 @@ This particular assignment is inspired from the concept of polyphony in the subj
 - One interesting thing we found while playing with the Arduino is that the three pairs of pins on the middle (vertically) of one end of Arduino- when any conductor touches one of those pins, the circuit resets itself for some reason. Wonder what the use of those pins exactly are. 
 
 #### Final Outcome:
+
 The final outcome of the project with several rythms can be found below:
   
   Final Circuits of all Arduinos:
@@ -91,16 +92,16 @@ The final outcome of the project with several rythms can be found below:
   Working:
   
   
-  https://user-images.githubusercontent.com/92122776/162900662-80deb971-b2a1-41f7-b66b-431cfebb685d.MOV
+  https://user-images.githubusercontent.com/92122776/162906483-5b24613e-5745-44df-a0f6-2cd33fa5bf0f.mov
+ 
+
+  https://user-images.githubusercontent.com/92122776/162906773-f5ce884f-c06a-4316-8fe1-c7785ef06e89.mov
+ 
+
+  https://user-images.githubusercontent.com/92122776/162906873-5fffeba1-26cb-42a0-a25f-2a7ec4b4fa9b.mov
   
 
-  https://user-images.githubusercontent.com/92122776/162901754-8f52def5-9303-4cb1-a1c3-1e788d6f82dd.MOV
-
-
-  https://user-images.githubusercontent.com/92122776/162902365-8cedd713-490f-44df-9fd2-ebffd51b81d5.MOV
-
-
-  https://user-images.githubusercontent.com/92122776/162902951-f369aca1-fd9f-4204-af66-0202fd481cfd.MOV
+  https://user-images.githubusercontent.com/92122776/162907078-be56abca-f3d3-4c16-b1d9-d127cb4e2757.mov
 
 
   https://user-images.githubusercontent.com/92122776/162902394-7e4e4762-3479-4a7b-b5ca-b57bc8b1be43.mov
