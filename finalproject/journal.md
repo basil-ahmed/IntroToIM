@@ -5,7 +5,7 @@
 #### Team Members:
 - Faizan Raza
 - Basil Ahmed
-- 
+
 #### The Initial Idea:
 - Our idea of the final project revolves around the concept of using arduino to count the number of people present in a room at a time. 
 - Our initial idea was to use only one motion sensor connected to the arduino to detect movement in and out of the room but soon we realized that it would be hard to differentiate between people entering and exiting the room. 
