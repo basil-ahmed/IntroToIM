@@ -87,6 +87,17 @@ https://user-images.githubusercontent.com/90772853/165177039-8b24bc52-40a2-4f05-
 - Another problem we faced was that for analyisng the data (the rush hour data), we needed all the data ever recorded. Storing it in the progran itself meant data would vanish whenever program closes.
 - To fix that problem, we transferred all data to a csv file whenever it closes. So whenever program loads up, along with getting the new data from arduino, it will take data from the csv file.
 
+##### Date: 6th May 2022
+
+#### User Testing and Changes Made:
+- We made 5 people go in and out repeatedly, and when the 6th person would go in the buzzer would sound (As the max limit set was 5), and when they immediately come back, it would turn off.
+- A lot of the times, when a person was entering, it wouldn't count.
+- Also, sometimes when the person would be entering, count would increase by 2 instead of 1.
+- To solve this problem, we increased the delay so the sensor doesn't detect again until the person has passed.
+- When a person would be exiting, the count would increment instead of decrementing.
+- To solve this problem we increased the distance between the 2 ultrasonic sensors.
+- We also put the sensors vertically so as to make them more accurate.
+
 ##### Date: 8th May 2022
 
 #### p5js Coding:
