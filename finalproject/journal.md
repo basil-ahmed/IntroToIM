@@ -112,6 +112,7 @@ https://user-images.githubusercontent.com/90772853/165177039-8b24bc52-40a2-4f05-
 - We also took headers and soldered them with wires for both of the scanners, as it would let us to use the scanners in greater range.
 - We approximated the distance between the 2 scanners, where it will be best for them to work.
 - We also made the structure so it's easy to put it somewhere.
+- Heat shrinked the wire set of the ultrasonic sensors so it's managable and more in place.
 
 #### Output of the Structure:
 ![IMG_55DE75EC218D-2](https://user-images.githubusercontent.com/90772853/167846040-36a0368d-187e-43a7-ad47-1e9f0bb83f10.jpeg)
