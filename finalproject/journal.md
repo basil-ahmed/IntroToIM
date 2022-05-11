@@ -75,3 +75,50 @@ https://user-images.githubusercontent.com/90772853/165177039-8b24bc52-40a2-4f05-
 #### Schematics (So Far):
 
 ![Schematics](https://user-images.githubusercontent.com/90772853/165177557-fec20518-bd57-4c3b-a011-5f04a6872fa2.jpeg)
+
+##### Date: 30th April 2022
+
+#### p5js Coding:
+- We had to analyze the data we were going to get from Arduino and integrate it into graphs that will prortay the information differently. 
+- Firstly, we simply wanted to show the count of people in a room on the screen.
+- Secondly, a real time count of people in the shape of a line graph.
+- Lastly, think of a way of showing the number of people throughout the day (to keep track of what hours are there the most people and vice versa).
+- We used a sample set of data, and put it in an array. But since the data was so much for the real time graph, using an array was very slow. We figured out another way and started using p5js tables for a faster data access.
+- Another problem we faced was that for analyisng the data (the rush hour data), we needed all the data ever recorded. Storing it in the progran itself meant data would vanish whenever program closes.
+- To fix that problem, we transferred all data to a csv file whenever it closes. So whenever program loads up, along with getting the new data from arduino, it will take data from the csv file.
+
+##### Date: 8th May 2022
+
+#### p5js Coding:
+- The people counter and the real time graph was done.
+- For the rush hour analysing, we thought of using a bar graph.
+- What the program will do is analyse all the data we have and the hours they were in by checking the time in the program itself.
+- It will then show the count of people in every hour interval of the day, in the shape of a bar graph.
+- Then, we seperated it into states. 
+- Pressing 0 on the computer would show the people count in Numbers.
+- Pressing 1 on the computer would show the realtime count of people in the shape of a line graph.
+- Pressing 2 on the computer would show the bar graph protraying what how the number of people in the place correlate to the hour of the day.
+
+#### Next Steps:
+- Combine P5js with Arduino.
+- Figure out how to connect arduino to computer through bluetooth.
+- Make a structure for the people counter so the 2 sensors are at enough distance from eachother to minimize bugs.
+
+##### Date: 10th May 2022
+
+#### Structure of the Device:
+- First we thought of having an acrylic box type strucutre for the People Counter.
+- The problem with Acrylic was cutting it, so we switched to a wooden structure.
+- We also took headers and soldered them with wires for both of the scanners, as it would let us to use the scanners in greater range.
+- We approximated the distance between the 2 scanners, where it will be best for them to work.
+- We also made the structure so it's easy to put it somewhere.
+
+#### Output of the Structure:
+![IMG_55DE75EC218D-2](https://user-images.githubusercontent.com/90772853/167846040-36a0368d-187e-43a7-ad47-1e9f0bb83f10.jpeg)
+![IMG_55DE75EC218D-3](https://user-images.githubusercontent.com/90772853/167846185-d39a4554-7ec8-4674-94b6-d4eab75aa7be.jpeg)
+![IMG_55DE75EC218D-1](https://user-images.githubusercontent.com/90772853/167846210-ffb27a4c-ed22-4ef1-ab3b-a10ab404e66b.jpeg)
+
+
+#### Next Steps:
+- Combine P5js with Arduino.
+- Figure out how to connect arduino to computer through bluetooth.
