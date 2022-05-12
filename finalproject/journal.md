@@ -134,3 +134,15 @@ https://user-images.githubusercontent.com/90772853/165177039-8b24bc52-40a2-4f05-
 #### Next Steps:
 - Combine P5js with Arduino.
 - Figure out how to connect arduino to computer through bluetooth.
+
+##### Date: 12th May 2022
+
+#### Combining P5js with Arduino:
+- Arduino sends the count of people to P5js
+- p5js puts it into tables, it also takes data from its CSV file
+- p5js analyses the data and outputs it into 3 different states
+
+#### Bluetooth Module:
+- We switched our prototype from wireless to wired
+- The utility wasn't as much, and the bluetooth module available was outdated.
+- It wasn't working so we removed it altogether.
