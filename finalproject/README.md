@@ -38,8 +38,16 @@ The data gathered from the people counter will then be used and manipulated by p
 - We also put the sensors vertically so as to make them more accurate.
 
 #### Photos:
-
+![IMG_55DE75EC218D-2](https://user-images.githubusercontent.com/90772853/167846040-36a0368d-187e-43a7-ad47-1e9f0bb83f10.jpeg)
+![IMG_55DE75EC218D-3](https://user-images.githubusercontent.com/90772853/167846185-d39a4554-7ec8-4674-94b6-d4eab75aa7be.jpeg)
+![IMG_55DE75EC218D-1](https://user-images.githubusercontent.com/90772853/167846210-ffb27a4c-ed22-4ef1-ab3b-a10ab404e66b.jpeg)
 #### Video:
+https://user-images.githubusercontent.com/90772853/168021433-3d20d846-1ea5-4c09-9591-03380a177c18.mov
+
+https://user-images.githubusercontent.com/90772853/168021772-efb514a2-77ea-42b9-901d-336f2b1e8a77.mov
+
+
+
 
 #### Problems:
 - If 2 people cross exactly together, it would count them as one.
@@ -57,3 +65,4 @@ The data gathered from the people counter will then be used and manipulated by p
 - Soldering wires, cutting and joining/pasting wood, making connections manually is extremely fun!!!
 
 #### Schematics:
+![Schematics](https://user-images.githubusercontent.com/90772853/165177557-fec20518-bd57-4c3b-a011-5f04a6872fa2.jpeg)
