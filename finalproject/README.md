@@ -71,3 +71,6 @@ https://user-images.githubusercontent.com/90772853/168021772-efb514a2-77ea-42b9-
 
 #### Schematics:
 ![Schematics](https://user-images.githubusercontent.com/90772853/165177557-fec20518-bd57-4c3b-a011-5f04a6872fa2.jpeg)
+
+#### Reference(s):
+- https://create.arduino.cc/projecthub/ryanchan/room-occupancy-counter-3b3ffa?ref=user&ref_id=81296&offset=1
