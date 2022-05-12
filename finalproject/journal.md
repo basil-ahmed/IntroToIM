@@ -110,6 +110,10 @@ https://user-images.githubusercontent.com/90772853/165177039-8b24bc52-40a2-4f05-
 - Pressing 1 on the computer would show the realtime count of people in the shape of a line graph.
 - Pressing 2 on the computer would show the bar graph protraying what how the number of people in the place correlate to the hour of the day.
 
+![WhatsApp Image 2022-05-12 at 11 57 34 AM](https://user-images.githubusercontent.com/90772853/168022522-01f3f7b0-f0ee-475f-a8c3-35a1b60f327c.jpeg)
+![WhatsApp Image 2022-05-12 at 11 57 57 AM](https://user-images.githubusercontent.com/90772853/168022542-ee411d24-02c5-483d-9eaa-b34e760d93fc.jpeg)
+![WhatsApp Image 2022-05-12 at 12 00 13 PM](https://user-images.githubusercontent.com/90772853/168022558-a1d88f99-846a-4847-a2fb-8f6611957706.jpeg)
+
 #### Next Steps:
 - Combine P5js with Arduino.
 - Figure out how to connect arduino to computer through bluetooth.
