@@ -146,3 +146,7 @@ https://user-images.githubusercontent.com/90772853/165177039-8b24bc52-40a2-4f05-
 - We switched our prototype from wireless to wired
 - The utility wasn't as much, and the bluetooth module available was outdated.
 - It wasn't working so we removed it altogether.
+
+https://user-images.githubusercontent.com/90772853/168021433-3d20d846-1ea5-4c09-9591-03380a177c18.mov
+
+https://user-images.githubusercontent.com/90772853/168021772-efb514a2-77ea-42b9-901d-336f2b1e8a77.mov
